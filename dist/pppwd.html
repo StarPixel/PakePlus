@@ -188,7 +188,7 @@
             <input id="code" class="input" placeholder="请输入密码" />
             <button class="button" onclick="check()">
                 <div id="loading"></div>
-                <span id="button">验证1</span>
+                <span id="button">验证</span>
             </button>
             <div class="tip" id="tip">提示内容</div>
             <div id="error" class="error">密码错误</div>
@@ -211,7 +211,7 @@
                 } else {
                     document.body.classList.add(currentProject.desktop.pwdTheme)
                 }
-                document.getElementById('card').classList =
+                document.getElementById('cardBox').classList =
                     currentProject.desktop.pwdStyle
                 // 设置标题
                 document.title = currentProject.desktop.pwdTitle
